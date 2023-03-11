@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+  
+    &__nav:last-of-type {
+      .footer__list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(212px, auto));
+      }
+    }
+  
+    &__item {
+      margin-bottom: 10px;
+    }
+  
+    &__link {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e4e5ea;
+    }
+  
+    &__title {
+      font-family: $interFont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #656566;
+      margin-bottom: 20px;
+    }
+  
+    &__contacts {
+      .footer__title {
+        text-align: right;
+      }
+    }
+  
+    &__copyright {
+      margin: 70px 0 5px;
+      font-family: $montserratFont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: right;
+      color: #e4e5ea;
+    }
+  
+    &__copyright-link {
+      font-family: $montserratFont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-decoration-line: underline;
+      text-align: right;
+      color: #e4e5ea;
+    }
+  }
+  

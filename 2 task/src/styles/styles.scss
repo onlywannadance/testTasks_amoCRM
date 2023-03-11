@@ -1,0 +1,16 @@
+@import url(../assets/fonts/Inter/stylesheet.css);
+@import url(../assets/fonts/Montserrat/stylesheet.css);
+
+@import "./libs/normalize";
+@import "./variables";
+
+@import "./components/app";
+@import "./components/contacts";
+@import "./components/footer";
+@import "./components/logo";
+@import "./components/main";
+@import "./components/menu";
+@import "./components/mobileMenu";
+
+@import "./media";
+

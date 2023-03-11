@@ -1,0 +1,196 @@
+@media screen and (max-width: 1050px) {
+  .App {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+
+    .contacts__social_bottom {
+      margin: 8px 0 10px;
+    }
+    
+    .contacts_bottom {
+      align-items: flex-start;
+    }
+    
+    .footer {
+      flex-direction: column;
+      padding: 41px 16px 60px;
+      background-color: #0e1014;
+      position: sticky;
+      z-index: 3;
+
+      &__nav:last-of-type {
+        padding: 20px 0 30px;
+
+        .footer__list {
+          grid-template-columns: repeat(2, minmax(123px, auto));
+        }
+      }
+
+      &__link {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      &__title {
+        font-size: 12px;
+        line-height: 15px;
+      }
+
+      &__contacts {
+        .footer__title {
+            text-align: left;
+        }
+      }
+
+      &__copyright {
+        text-align: left;
+        margin: 50px 0 5px;
+      }
+
+      &__copyright-link {
+        text-align: left;
+      }
+    }
+
+    .content {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 95px;
+      padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+ 
+ .App {
+  .purpleBall {
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    top: 280px;
+    filter: blur(7px);
+  }
+
+  .redBall {
+    width: 43px;
+    height: 43px;
+    left: 50px;
+    top: 450px;
+    filter: blur(5px);
+  }
+
+  .purpleLight {
+    position: absolute;
+    width: 255px;
+    height: 259px;
+    left: 50px;
+    top: 120px;
+    border-radius: 50%;
+    background: #833ab4;
+    opacity: 0.5;
+    filter: blur(196px);
+  }
+}
+  .contacts__text {
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .footer__nav:last-of-type {
+    .footer__list {
+        grid-template-columns: 100px 123px;
+        grid-column-gap: 48px;
+    }
+  }
+
+  .content {
+    padding-left: 14px;
+    align-items: flex-start;
+    background-image: url(../assets/img/noise.png);
+
+    &__item {
+      max-width: 272px;  
+    }
+
+    &__item:last-of-type {
+      padding-top: 45px;
+      align-items: flex-start;
+    }
+
+    &__title-main {
+       font-size: 36px;
+       line-height: 44px;
+       margin-bottom: 15px; 
+
+       span {
+         font-size: 36px;
+         line-height: 44px;
+       }
+    }
+
+    &__title {
+      text-align: left;
+
+      span {
+        text-transform: lowercase;
+      }
+    }
+
+    &__list {
+      grid-template-columns: 119px auto;
+      grid-row-gap: 14px;
+      grid-column-gap: 5px;
+      margin-top: 20px;
+      margin-bottom: 59px;
+    }
+
+    &__list-title{
+      font-family: $montserratFont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      margin-bottom: 0;
+      text-align: left;
+
+        span {
+          background: linear-gradient(92deg, #fcb045 36.99%, #fd1d1d 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          margin-right: 5px;
+        }
+    }
+
+    &__button {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+      
+@media screen and (max-width: 320px) {
+  .redBall_small {
+    width: 43px;
+    height: 43px;
+    left: 29px;
+    top: 462px;
+  }
+
+  .purpleLight {
+    left: 258px;
+    top: 107px;
+  }
+
+  .redLight {
+    left: -55px;
+    top: 241px;
+  }
+}  
+

@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.startButton {
+	font-weight: 400;
+    font: "Sans serif";
+    font-size: 24px;
+    color: #a3a3a3;
+    padding: .8em 1em calc(.8em + 3px);
+    height: 75px;
+    width: 100px;
+    border: solid 1px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.startButton:hover { 
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+}
+
+.counter {
+    font: normal 4em/100px "Sans serif";
+    font-weight: 600;
+    color: #ffffff;
+    border-color: black;
+}
+
+.inputField {
+    display: block;
+    width: 360px;
+	background: #fff;
+	color: #a3a3a3;
+	font: inherit "Sans serif";
+    font-size: 26px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+	border: 0;
+	outline: 0;
+	padding: 22px 18px;
+
+}
